@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import {  Logo, Text, Input, Buttons, Login_button } from './molecules'
 
 export default function Container() {
@@ -7,7 +8,7 @@ export default function Container() {
             <Text />
             <Input />
             <Buttons />
-            <Login_button />
+            <Link to="dashboard"><Login_button /></Link>
         </form>
     )
 }

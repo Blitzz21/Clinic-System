@@ -20,9 +20,9 @@ export default function Dashboard() {
 
 const Appointment = () => {
     return(
-      <div className='flex flex-col justify-center border-1 border-[#EEEEEE] shadow-lg p-8'>
-        <div className='flex flex-row justify-between p-4'>
-            <img className='flex w-4 h-4 cursor-pointer' src={X} alt="X" />
+      <div className='absolute hidden flex-col justify-center border-1 bg-white border-[#EEEEEE] shadow-lg p-8'>
+        <div className='flex flex-row items-center justify-between p-4'>
+            <img className='flex w-3 h-3 cursor-pointer' src={X} alt="X" />
             <h1 className='text-xl font-bold'>Set Appointment</h1>
         </div>
 

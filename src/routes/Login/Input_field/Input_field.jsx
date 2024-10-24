@@ -1,5 +1,6 @@
 import Icon_mail from './Icons/Icon_mail'
 import Icon_lock from './Icons/Icon_lock'
+import Input from '../../../components/Input/Input'
 
 export default function Input_field() {
     return (

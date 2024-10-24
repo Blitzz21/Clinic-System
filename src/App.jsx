@@ -8,7 +8,6 @@ function App() {
   return (
       <Routes>
         <Route index element={<LoginPage />} />
-        <Route path='/login' element={<LoginPage />} />
         <Route path='/dashboard' element={<Dashboard />} />
         <Route path='/form' element={<Form />} />
       </Routes>
