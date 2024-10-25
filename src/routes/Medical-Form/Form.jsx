@@ -6,7 +6,7 @@ import Page4 from './Page4/Page4'
 
 export default function Form() {
     return (
-        <div className='flex flex-col justify-center'>
+        <div className='flex flex-col justify-center z-0'>
             <Header />
             <div className='flex flex-row justify-center items-center p-4'>
                 <p className='bg-black text-white border-black border border-solid rounded-full py-[1px] px-[10px]'>1</p>

@@ -61,28 +61,28 @@ export default function Father() {
                 <div className="flex m-1 flex-grow">
                     <div class="relative w-full z-10">
                         <input value={formValues.fatherFirstName} name='fatherFirstName' onChange={handleInputChange} id='fatherFirstName' type='text' disabled={isDisabled} className="peer caret-blue-400 w-full block flex-grow appearance-none border rounded-md bg-transparent px-2 py-2.5 text-sm text-black focus:border-blue-500 focus:outline-none focus:ring-0" placeholder="" />
-                        <label htmlFor='fatherFirstName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Father's First Name</label>
+                        <label htmlFor='fatherFirstName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">First Name</label>
                     </div>
                 </div>
 
                 <div className="flex m-1 flex-grow">
                     <div class="relative w-full z-10">
                         <input value={formValues.fatherMiddleName} name='fatherMiddleName' onChange={handleInputChange} id='fatherMiddleName' type='text' disabled={isDisabled} className="peer caret-blue-400 w-full block flex-grow appearance-none border rounded-md bg-transparent px-2 py-2.5 text-sm text-black focus:border-blue-500 focus:outline-none focus:ring-0" placeholder="" />
-                        <label htmlFor='fatherMiddleName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Father's Middle Name</label>
+                        <label htmlFor='fatherMiddleName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Middle Name</label>
                     </div>
                 </div>
 
                 <div className="flex m-1 flex-grow">
                     <div class="relative w-full z-10">
                         <input value={formValues.fatherLastName} name='fatherLastName' onChange={handleInputChange} id='fatherLastName' type='text' disabled={isDisabled} className="peer caret-blue-400 w-full block flex-grow appearance-none border rounded-md bg-transparent px-2 py-2.5 text-sm text-black focus:border-blue-500 focus:outline-none focus:ring-0" placeholder="" />
-                        <label htmlFor='fatherLastName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Father's Last Name</label>
+                        <label htmlFor='fatherLastName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Last Name</label>
                     </div>
                 </div>
 
                 <div className="flex m-1 flex-grow">
                     <div class="relative w-full z-10">
                         <input value={formValues.fatherOccupationName} name='fatherOccupationName' onChange={handleInputChange} id='fatherOccupationName' type='text' disabled={isDisabled} className="peer caret-blue-400 w-full block flex-grow appearance-none border rounded-md bg-transparent px-2 py-2.5 text-sm text-black focus:border-blue-500 focus:outline-none focus:ring-0" placeholder="" />
-                        <label htmlFor='fatherOccupationName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Father's Occupation</label>
+                        <label htmlFor='fatherOccupationName' className="absolute top-3 bg-white z-10 px-1 ml-1 origin-[0] -translate-y-6 scale-75 transform text-md text-gray-400 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 pointer-events-none peer-focus:start-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-500 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4">Occupation</label>
                     </div>
                 </div>
 
