@@ -1,5 +1,6 @@
 import Header from '../Dashboard/Header/Header'
 import Page1 from './Page1/Page1'
+import Page1BED from './Page1/Page1BED'
 import Page2 from './Page2/Page2'
 import Page3 from './Page3/Page3'
 import Page4 from './Page4/Page4'
@@ -20,6 +21,7 @@ export default function Form() {
             <div className='flex justify-center'>
                 <form className='flex flex-col p-4 justify-center items-center w-[800px]' action="">
                     <Page1 />
+                    <Page1BED />
                     <Page2 />
                     <Page3 />
                     <Page4 />
