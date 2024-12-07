@@ -9,6 +9,7 @@ export default function Buttons() {
     const handleSubmit = () => {
         if (!reason || !date) {
         alert("Please fill in both the reason and date.");
+
         return;
         }
 
@@ -25,7 +26,7 @@ export default function Buttons() {
     <div className='flex flex-col'>
         <button onClick={() => setShowAppointment(true)} className='px-28 py-4 m-2 bg-[#091C98] text-white rounded-3xl hover:bg-[#16205c] ease-in duration-100' type="button">Request Appointment</button>
         <button className='px-28 py-4 m-2 bg-[#091C98] text-white rounded-3xl hover:bg-[#16205c] ease-in duration-100' type="button"><Link to="/form">Edit Medical Record</Link></button>
-        <button className='px-28 py-4 m-2 bg-[#091C98] text-white rounded-3xl hover:bg-[#16205c] ease-in duration-100' type="button">Check Medical Record</button>
+        <button className='px-28 py-4 m-2 bg-[#091C98] text-white rounded-3xl hover:bg-[#16205c] ease-in duration-100' type="button"><Link to="/view-medical-record">Check Medical Record</Link></button>
     
 
     {showAppointment && (

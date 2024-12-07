@@ -11,22 +11,6 @@ export default function Guardian() {
       guardianContact: '',
     });
   
-    // Handler for checkbox toggle
-    const handleCheckboxChange = () => {
-      if (!isDisabled) {
-        // Clear inputs when disabling
-        setFormValues({
-            suffix: '',
-            guardianFirstName: '',
-            guardianMiddleName: '',
-            guardianLastName: '',
-            guardianOccupation: '',
-            guardianContact: '',
-        });
-      }
-      setIsDisabled(!isDisabled);
-    };
-
     // Handler for input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -37,7 +21,6 @@ export default function Guardian() {
     <div className='flex flex-col px-12 py-4'>
         <div className='flex flex-row justify-between'>
             <h3>Guardian's Information</h3>
-            <label className='text-red-600'><input type="checkbox" checked={isDisabled} onChange={handleCheckboxChange}/>+</label>
         </div>
             {/* Input fields */}
             <div className='flex flex-wrap'>
