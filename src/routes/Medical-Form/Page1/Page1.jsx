@@ -1,9 +1,11 @@
 import Input from '../../../components/Input/Input';
 import Suffix from '../components/Suffix/Suffix';
+import Page1BED from './Page1BED'
 
 export default function Page1() {
     return (
         <div className="p-4">
+            <Page1BED />
             <div className="flex flex-col w-full">
                 <h1 className="font-bold">Name</h1>
                 <div className="flex flex-col md:flex-row md:space-x-4">
